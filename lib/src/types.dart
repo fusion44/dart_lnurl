@@ -16,12 +16,12 @@ class LNURLChannelParams {
         callback = json['callback'],
         domain = json['domain'],
         k1 = json['k1'],
-        url = json['url'];
+        uri = json['uri'];
   final String tag;
   final String callback;
   final String domain;
   final String k1;
-  final String url;
+  final String uri;
 }
 
 class LNURLWithdrawParams {
